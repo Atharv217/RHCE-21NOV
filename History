@@ -163,8 +163,34 @@ yum install targetcli -y
    71  systemctl restart target
    72  systemctl enable target
    73  targetcli
+   
+     yum groupinstall mariadb
+    systemctl start mariadb
+    systemctl enable mariadb
+    mysql -uroot
+    mysql_secure_installation
+    systemctl restart mariadb
+    systemctl enable mariadb
+    mysql -utom -pfedora
+    systemctl status firewalld
 
+MariaDB [engineering]> GRANT SELECT ON engineering.manufacture TO 'tom'@'localhost';
+Query OK, 0 rows affected (0.00 sec)
 
+MariaDB [engineering]> GRANT SELECT ON engineering.manufacture TO 'susan'@'%';
+Query OK, 0 rows affected (0.00 sec)
+
+MariaDB [engineering]> GRANT INSERT ON engineering.manufacture TO 'susan'@'%';
+Query OK, 0 rows affected (0.00 sec)
+
+MariaDB [engineering]> GRANT ALL ON engineering.manufacture TO ' christopher'@'192.168.204.135';
+Query OK, 0 rows affected (0.00 sec)
+
+SELECT name FROM manufacture
+where id='4';
+
+SELECT id FROM manufacture 
+where name='testing;'
 ========================================================================
 Client side History
 
@@ -244,4 +270,36 @@ yum install iscsi-initiator-utils -y
   136  vim /etc/iscsi/initiatorname.iscsi 
   137  history
 
+==================================================================================================
+scripting 1
 
+[root@node1 ~]# cat /root/condition.sh 
+#! /bin/bash
+if [ $# -ne 1 ]; then
+echo "i love fedora linux, try it.."
+elif [ $1 == "Linux" ]; then
+echo "Red hat"
+elif [ $1 == "Fedora" ]; then
+echo "Linux"
+else 
+echo "i love fedora linux,try it"
+fi
+[root@node1 ~]# 
+
+scripting 2
+[root@node2 ~]# cat useradd.sh 
+#! /bin/bash
+if [ $# -ne 1 ]; then
+	echo "no output" 
+elif [ $1 = "test1" ]; 
+then
+	for var in $( cat test1 ); do 
+	useradd $var; done
+else 
+	echo "wrong input"
+fi 
+
+cat test1
+unnati
+dargah
+cidco
