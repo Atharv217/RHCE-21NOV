@@ -1,0 +1,247 @@
+Server history
+   
+
+1  2020-11-21 06:04:58ip  a
+    2  2020-11-21 06:04:58dhclient
+    3  2020-11-21 06:04:58ip a
+    4  2020-11-21 06:04:58getenforece
+    5  2020-11-21 06:04:58getenforce
+    6  2020-11-21 06:04:58vim /etc/sysconfig/selinux 
+    7  2020-11-21 06:04:58man firewalld.richlanguage
+    8  2020-11-21 06:04:58firewall-cmd --permanent --add-rich-rule= "rule family="ipv4" source address="192.168.12.0/24" service name="ssh""
+    9  2020-11-21 06:04:58firewall-cmd --permanent --add-rich-rule= "rule family="ipv4" source address="192.168.12.0/24" service name="ssh" reject"
+   10  2020-11-21 06:04:58firewall-cmd --permanent --add-rich-rule "rule family="ipv4" source address="192.168.12.0/24" service name="ssh" reject"
+   11  2020-11-21 06:04:58nmcli show connections
+   12  2020-11-21 06:04:58nmcli connection show 
+   13  2020-11-21 06:04:58man nmcli-example
+   14  2020-11-21 06:04:58man nmcli -example
+   15  2020-11-21 06:04:58man nmcli-examples
+   16  2020-11-21 06:04:58yum install nfs-utils -y
+   17  2020-11-21 06:04:58yum clean all
+   18  2020-11-21 06:04:58yum install nfs-utils -y
+   19  2020-11-21 06:04:58yum repolist
+   20  2020-11-21 06:04:58yum make cache fast
+   21  2020-11-21 06:04:58yum makecache fast
+   22  2020-11-21 06:04:58yum update
+   23  2020-11-21 06:04:58vim /etc/yum.repos.d/
+   24  2020-11-21 06:04:58cd /etc/yum.repos.d
+   25  2020-11-21 06:04:58ls
+   26  2020-11-21 06:04:58cd
+   27  2020-11-21 06:04:58yum update
+   28  2020-11-21 06:04:58yum install nfs-utils -y
+   29  2020-11-21 06:04:58mkdir /tmp/mynfs -p
+   30  2020-11-21 06:04:58vim /etc/exports
+   31  2020-11-21 06:04:58exportfs -x
+   32  2020-11-21 06:04:58exportfs -r
+   33  2020-11-21 06:04:58vim /etc/exports
+   34  2020-11-21 06:04:58exportfs -r
+   35  2020-11-21 06:04:58vim /etc/exports
+   36  2020-11-21 06:04:58vim /etc/hosts
+   37  2020-11-21 06:04:58exportfs -r
+   38  2020-11-21 06:04:58systemctl status firewalld
+   39  2020-11-21 06:04:58firewall-cmd --permanent --add-service=nfs
+   40  2020-11-21 06:04:58firewall-cmd --reload 
+   41  2020-11-21 06:04:58systemctl restart nfs
+   42  2020-11-21 06:04:58systemctl enable nfs
+   43  2020-11-21 06:04:58ip a
+   44  2020-11-21 06:04:58exportfs -rv
+   45  2020-11-21 06:04:58systemctl restart nfs-server
+   46  2020-11-21 06:04:58systemctl status nfs-server
+   47  2020-11-21 06:04:58systemctl enable nfs-server
+   48  2020-11-21 06:04:58hostname
+   49  2020-11-21 06:04:58ip a
+   50  2020-11-21 06:04:58vim /etc/hosts
+   51  2020-11-21 06:04:58reboot
+   52  2020-11-21 06:04:58hostname
+   53  2020-11-21 06:04:58hostnamectl set-hostname node1
+   54  2020-11-21 06:04:58hostname
+   55  2020-11-21 06:04:58reboot
+   56  2020-11-21 06:05:07vim /etc/hosts
+   57  2020-11-21 06:05:43ip a
+   58  2020-11-21 06:05:48dhclient
+   59  2020-11-21 06:05:55ip a
+   60  2020-11-21 06:05:59hostname
+   61  2020-11-21 06:06:03vim /etc/hosts
+   62  2020-11-21 06:07:52systemctl restart nfs-server
+   63  2020-11-21 06:07:59systemctl enable nfs-server
+   64  2020-11-21 06:09:22ls
+   65  2020-11-21 06:09:25ll
+   66  2020-11-21 06:09:30history 
+   67  2020-11-21 06:10:07cd /tmp/
+   68  2020-11-21 06:10:08ls
+   69  2020-11-21 06:10:28mkdir mynfs
+   70  2020-11-21 06:10:30ls
+   71  2020-11-21 06:10:32cd
+   72  2020-11-21 06:10:36systemctl restart nfs-server
+   73  2020-11-21 06:10:46systemctl enable nfs-server
+   74  2020-11-21 06:11:36vim /etc/hosts
+   75  2020-11-21 06:11:53vim /etc/exports
+   76  2020-11-21 06:13:05ll
+   77  2020-11-21 06:13:11cd /tmp/
+   78  2020-11-21 06:13:12ls
+   79  2020-11-21 06:14:05systemctl restart nfs-server
+   80  2020-11-21 06:14:12systemctl enable nfs-server
+   81  2020-11-21 06:15:21ls -ll /tmp/
+   82  2020-11-21 06:16:01firewall-cmd --reload 
+   83  2020-11-21 06:17:40vim /etc/exports
+   84  2020-11-21 06:18:57cd
+   85  2020-11-21 06:20:39yum isntall samba samba-client 
+   86  2020-11-21 06:20:52yum install samba samba-client 
+   87  2020-11-21 06:21:44vim /etc/samba/smb.conf
+   88  2020-11-21 06:26:49useradd samual
+   89  2020-11-21 06:26:57smbpasswd -a samual
+   90  2020-11-21 06:28:19setfacl -m u:samual:r-x /concert/
+   91  2020-11-21 06:28:37mkdir /concert
+   92  2020-11-21 06:28:39setfacl -m u:samual:r-x /concert/
+   93  2020-11-21 06:29:26semanage fcontext -a -t samba_share_t "/concert(/.*)?"
+   94  2020-11-21 06:30:07restorecon -Rv /concert/
+   95  2020-11-21 06:31:02systemctl restart smb nmb
+   96  2020-11-21 06:31:09systemctl enable smb nmb
+   97  2020-11-21 06:31:40firewall-cmd --permanent --add-service=smaba
+   98  2020-11-21 06:31:47firewall-cmd --permanent --add-service=samba
+   99  2020-11-21 06:32:06firewall-cmd --permanent --reload
+  100  2020-11-21 06:32:12firewall-cmd  --reload
+  101  2020-11-21 06:39:48mkdir /dockyard
+  102  2020-11-21 06:40:00semanage fcontext -a -t samba_share_t "/dockyard(/.*)?"
+  103  2020-11-21 06:40:49vim /etc/samba/smb.conf
+  104  2020-11-21 06:43:52useradd mitchel
+  105  2020-11-21 06:44:13smbpasswd -a mitchel
+  106  2020-11-21 06:45:11useradd catherine
+  107  2020-11-21 06:45:18smbpasswd -a catherine
+  108  2020-11-21 06:46:11setfacl -m u:mitchel:rwx /dockyard/
+  109  2020-11-21 06:46:25setfacl -m u:catherine:r-x /dockyard/
+  110  2020-11-21 06:47:08getsebool | grep smaba
+  111  2020-11-21 06:47:18getsebool -a | grep smaba
+  112  2020-11-21 06:47:29getsebool -a | grep samba
+  113  2020-11-21 06:49:21setsebool -P samba_export_all_ro on
+  114  2020-11-21 06:49:30setsebool -P samba_export_all_rw on
+  115  2020-11-21 06:49:57getsebool -a | grep samba
+  116  2020-11-21 06:58:10vim /etc/httpd/conf.d/one.conf 
+  117  2020-11-21 06:58:46systemctl restart httpd
+  118  2020-11-21 06:58:52systemctl enable httpd
+  119  2020-11-21 06:58:57curl localhost
+  120  2020-11-21 07:03:35vim /etc/httpd/conf.d/one.conf 
+  121  2020-11-21 07:04:00systemctl restart httpd
+  122  2020-11-21 07:04:04systemctl enable httpd
+  123  2020-11-21 07:04:09curl localhost
+  124  2020-11-21 07:05:16cat vim /etc/httpd/conf.d/one.conf 
+  125  2020-11-21 07:06:17vim /etc/hosts
+  126  2020-11-21 07:06:42systemctl restart httpd
+  127  2020-11-21 07:06:46curl localhost
+  128  2020-11-21 07:06:50systemctl enable httpd
+  129  2020-11-21 07:09:44cat vim /etc/httpd/conf.d/one.conf 
+  130  2020-11-21 07:09:51 vim /etc/httpd/conf.d/one.conf 
+  131  2020-11-21 07:12:35mkdir /var/www/html/notes
+  132  2020-11-21 07:12:58touch sec.txt
+  133  2020-11-21 07:12:59ls
+  134  2020-11-21 07:13:10rm sec.txt 
+  135  2020-11-21 07:13:19cd /var/www/html/notes
+  136  2020-11-21 07:13:21ls
+  137  2020-11-21 07:13:28touch sec.txt
+  138  2020-11-21 07:13:29ls
+  139  2020-11-21 07:13:33cd
+  140  2020-11-21 07:13:41systemctl restart httpd
+  141  2020-11-21 07:13:48systemctl enable httpd
+  142  2020-11-21 07:20:28history 
+
+ iscsi
+
+yum install targetcli -y
+   58  vgcreate myvg /dev/sdb
+   59  lvcreate -l 2G -n mylv myvg
+   60  lvcreate -l 2000M -n mylv myvg
+   61  lvcreate -L 2G -n mylv myvg
+   62  lvs
+   63  systemctl enable target
+   64  systemctl start target
+   65  systemctl status target
+   66  targetcli
+   67  firewall-cmd --permanent --add-port=3260
+   68  firewall-cmd --permanent --add-port=3260/tcp
+   69  firewall-cmd --reload 
+   70  systemctl restart targetet
+   71  systemctl restart target
+   72  systemctl enable target
+   73  targetcli
+
+
+========================================================================
+Client side History
+
+
+  100  2020-11-21 06:03:06vim /etc/hosts
+  101  2020-11-21 06:03:06mkdir /nfsdata
+  102  2020-11-21 06:03:06mount 192.168.248.151:/mnt/mynfs /nfsdata
+  103  2020-11-21 06:03:06mount 192.168.248.151/24:/mnt/mynfs /nfsdata
+  104  2020-11-21 06:03:06mount server.example.com:/mnt/mynfs /nfsdata
+  105  2020-11-21 06:03:06vim /etc/hosts
+  106  2020-11-21 06:03:06hostname
+  107  2020-11-21 06:03:06reboot
+  108  2020-11-21 06:06:09ip a
+  109  2020-11-21 06:06:29vim /etc/hosts
+  110  2020-11-21 06:07:29mount 192.168.248.151:/tmp/mynfs /nfsdata
+  111  2020-11-21 06:08:28yum install nfs-utils -y
+  112  2020-11-21 06:09:02systemctl restart nfs-server
+  113  2020-11-21 06:09:08systemctl enable nfs-server
+  114  2020-11-21 06:09:11mount 192.168.248.151:/tmp/mynfs /nfsdata
+  115  2020-11-21 06:09:52mkdir /nfsdata
+  116  2020-11-21 06:10:53systemctl restart nfs-server
+  117  2020-11-21 06:10:55systemctl enable nfs-server
+  118  2020-11-21 06:10:58mount 192.168.248.151:/tmp/mynfs /nfsdata
+  119  2020-11-21 06:13:42mount node1:/tmp/mynfs /nfsdata
+  120  2020-11-21 06:14:40systemctl restart nfs-server
+  121  2020-11-21 06:14:47systemctl enable nfs-server
+  122  2020-11-21 06:14:54mount 192.168.248.151:/tmp/mynfs /nfsdata
+  123  2020-11-21 06:17:04chmod 777 /nfsdata/
+  124  2020-11-21 06:17:08mount 192.168.248.151:/tmp/mynfs /nfsdata
+  125  2020-11-21 06:17:21mkdir /data
+  126  2020-11-21 06:18:28mount 192.168.248.151:/tmp/mynfs /data
+  127  2020-11-21 06:33:33yum install samba-client cifs-utils -y
+  128  2020-11-21 06:36:00mount -o username=samual //node1/ARTIST /mnt
+  129  2020-11-21 06:36:51df -h
+  130  2020-11-21 06:38:08mkdir /dockyard
+  131  2020-11-21 06:39:31rmdir /dockyard
+  132  2020-11-21 06:50:40mkdir /mnt/akon
+  133  2020-11-21 06:50:46mkdir /mnt/akon -p
+  134  2020-11-21 06:51:27umount /mnt 
+  135  2020-11-21 06:51:28mkdir /mnt/akon -p
+  136  2020-11-21 06:52:13cat > /root/test.sec
+  137  2020-11-21 06:53:32vim /etc/fstab 
+  138  2020-11-21 06:55:30mount -a
+  139  2020-11-21 06:55:36vim /etc/fstab 
+  140  2020-11-21 06:55:54mount -a
+  141  2020-11-21 06:55:58df -h
+
+Iscsi client side
+
+yum install iscsi-initiator-utils -y
+  110  man iscsiadm
+  111  iscsiadm --mode discoverydb --type sendtargets --portal 192.168.248.151 --discover
+  112  vim /etc/iscsi/initiatorname.iscsi 
+  113  systemctl restart iscsid
+  114  systemctl enable iscsid
+  115  man iscsiadm
+  116  iscsiadm --mode node --targetname iqn.2018-19.com.example.networkx:system2 --portal 192.168.248.151:3260 --login
+  117  lsblk
+  118  iscsiadm --mode node --targetname iqn.2018-19.com.example.networkx:system2 --portal 192.168.248.151:3260 --logout
+  119  lsblk
+  120  iscsiadm --mode node --targetname iqn.2018-19.com.example.networkx:system2 --portal 192.168.248.151:3260 --login
+  121  lsblk
+  122  fdisk
+  123  fdisk /dev/sdb
+  124  partprobe
+  125  vim /etc/fstab 
+  126  blkid
+  127  lsblk
+  128  partprobe
+  129  mkfs.ext4 /dev/sdb1
+  130  blkid
+  131  vim /etc/fstab 
+  132  mkdir /shareddisk
+  133  mount -a
+  134  lsblk
+  135  history
+  136  vim /etc/iscsi/initiatorname.iscsi 
+  137  history
+
+
